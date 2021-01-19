@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 .wrapper {
     width: 1170px;
     text-align: center;
@@ -23,6 +27,7 @@
 .main-section_block h1 {
     color: #23ea8a;
     font-size: 90px;
+    font-family: 'FuturaPT',Arial,sans-serif;
 }
 
 .main-section_descr {
@@ -48,3 +53,53 @@ button:hover{
     transition: all 1s ease;
     background-color: #916814;
 }
+
+.information-block{
+    margin-top: 170px;
+}
+
+.information-block h2{
+    font-size: 52px;
+    line-height: 1.23;
+    font-family: 'FuturaPT',Arial,sans-serif;
+    font-weight: 500;
+    color: #000;
+}
+
+.information-block_descr{
+    margin-top: 55px;
+    font-size: 26px;
+    line-height: 1.45;
+    font-family: 'FuturaPT',Arial,sans-serif;
+    font-weight: 300;
+}
+
+.information-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 300px;
+}
+
+.list_item img{
+    width: 350px;
+    height: 360px;
+    object-fit: cover;
+}
+
+.second-row{
+    margin-top: 215px;
+}
+
+.list_item h4{
+    color: #ff8562 ;
+    text-decoration: none;
+    font-size: 28px;
+    line-height: 1.17;
+    font-family: 'FuturaPT',Arial,sans-serif;
+    font-weight: 600;
+}
+
+
