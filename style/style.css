@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
-a{
+button:focus {
+    outline: none !important
+}
+
+a {
     text-decoration: none;
 }
 
@@ -14,12 +18,12 @@ a{
     margin: 0 auto;
 }
 
-.main-section{
+.main-section {
 }
 
 .main-section_block {
     background-blend-mode: multiply;
-    background:rgba(135,140,147,0.63) url("../img/firstBlock/background.jpg") 0 0/cover no-repeat;
+    background: rgba(135, 140, 147, 0.63) url("../img/firstBlock/background.jpg") 0 0/cover no-repeat;
     padding-top: 270px;
     padding-bottom: 250px;
 }
@@ -27,7 +31,7 @@ a{
 .main-section_block h1 {
     color: #23ea8a;
     font-size: 90px;
-    font-family: 'FuturaPT',Arial,sans-serif;
+    font-family: 'FuturaPT', Arial, sans-serif;
 }
 
 .main-section_descr {
@@ -49,57 +53,128 @@ a{
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     transition: all 1s ease;
-    background-color: #916814;
+    background-color: #d29312;
 }
 
-.information-block{
+.information-block {
     margin-top: 170px;
 }
 
-.information-block h2{
+.information-block h2 {
     font-size: 52px;
     line-height: 1.23;
-    font-family: 'FuturaPT',Arial,sans-serif;
+    font-family: 'FuturaPT', Arial, sans-serif;
     font-weight: 500;
     color: #000;
 }
 
-.information-block_descr{
+.information-block_descr {
     margin-top: 55px;
     font-size: 26px;
     line-height: 1.45;
-    font-family: 'FuturaPT',Arial,sans-serif;
+    font-family: 'FuturaPT', Arial, sans-serif;
     font-weight: 300;
 }
 
-.information-list{
+.information-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin-top: 120px;
-    margin-bottom: 300px;
 }
 
-.list_item img{
-    width: 350px;
-    height: 360px;
+.list_item img {
+    width: 330px;
+    height: 320px;
     object-fit: cover;
 }
 
-.second-row{
-    margin-top: 215px;
+.second-row {
+    margin-top: 170px;
 }
 
-.list_item h4{
-    color: #ff8562 ;
+.list_item h4 {
+    color: #ff8562;
     text-decoration: none;
     font-size: 28px;
     line-height: 1.17;
-    font-family: 'FuturaPT',Arial,sans-serif;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.sertificate-block {
+    margin-top: 175px;
+}
+
+.sertificate-block h2 {
+    color: rgb(255, 133, 98);
+    text-decoration: none;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 1.23;
+}
+
+.sertificate-block_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.sertificate-block_list .second-row {
+    margin-top: 130px;
+}
+
+.sertificate-block_list img {
+    width: 380px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.sertificate-block_list h4 {
+    margin-top: 30px;
+}
+
+.video-instruction {
+    margin-top: 210px;
+}
+
+.video-instruction h2 {
+    font-size: 50px;
+    line-height: 1.23;
+    font-family: 'FuturaPT', Arial, sans-serif;
     font-weight: 600;
 }
 
+.video_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
 
+.video-instruction button{
+    font-family: 'FuturaPT',Arial,sans-serif;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 40px;
+    margin-top: 70px;
+    padding: 0 60px;
+    margin-bottom: 60px;
+    background-color: white;
+}
+
+.video-instruction button:hover{
+    background-color: #bebdbd;
+    transition: all 1s ease;
+}
